@@ -1,0 +1,13 @@
+mybatis:
+  mapper-locations: /dao/*.xml
+spring:
+#  配置多数据源
+  datasource:
+    gfdev:
+      jdbc-url: jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.9.240.171)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = gfmir)))
+      username: lishuanglong
+      password: wolong123
+    gffldev:
+      jdbc-url: jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.9.240.171)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = gflsmir)))
+      username: lishuanglong
+      password: wolong123

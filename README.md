@@ -1,2 +1,3 @@
-# springBoot_myBatis_oracle_-Multiple_DataSources-
-使用springBoot创建多数据源项目
+# springBoot_myBatis_oracle
+项目=“spring_boot” +"myBatis" + "oracle"
+多数据源项目

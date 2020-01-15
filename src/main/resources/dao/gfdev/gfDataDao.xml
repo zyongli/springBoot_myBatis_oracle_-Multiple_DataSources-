@@ -1,0 +1,6 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.gfdev.gfDataDao">
+    <select id="select" resultType="java.lang.String">
+        SELECT VDEALERNAME FROM icf.au_dealer A where A.NDEALERID = '1133190685'
+    </select>
+</mapper>
